@@ -23,7 +23,6 @@ namespace AzureFunctions
         {
             try
             {
-                //dskdlad
                 cosmos = new
                 {
                     deviceId = message.SystemProperties["iothub-connection-device-id"].ToString(),

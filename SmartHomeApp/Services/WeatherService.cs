@@ -11,7 +11,7 @@ namespace SmartHomeApp.Services
 {
     internal interface IWeatherService
     {
-        public Task<WeatherResponse> GetWeatherDataAsync(string uri = " ");
+        public Task<WeatherResponse> GetWeatherDataAsync(string uri = "https://api.openweathermap.org/data/2.5/weather?lat=59.481303989906806&lon=18.29866155612496&units=metric&appid=b37e75307c7363af8843578063a3b5ec");
     }
     
     internal class WeatherService : IWeatherService
